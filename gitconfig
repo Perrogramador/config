@@ -1,0 +1,47 @@
+[alias]
+    a = add
+    aa = add --all
+    bl = blame
+    br = branch
+    bs = bisect
+    c = commit
+    ca = commit --amend
+    cam = commit --amend -m
+    cm = commit -m
+    cl = clone
+    co = checkout
+    cob = checkout -b
+    com = checkout master
+    cp = cherry-pick
+    df = diff
+  	g = grep --break --heading --line-number
+    lg = log --pretty=oneline
+    map = log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"
+    mt = mergetool
+    pl = pull
+    prq = pull-request
+    prqm = pull-request -m
+    ps = push --set-upstream origin
+    rb = rebase
+    rba = rebase --abort
+    rbc = rebase --continue
+    rbim = rebase -i master
+    r = reset
+    rs = reset --soft
+    rh = reset --hard
+    sb = show-branch
+    s = stash
+    sm = stash save
+    sa = stash apply
+    sl = stash list
+    st = status
+    t = tag
+[merge]
+    tool = vim
+[diff]
+    tool = vim
+[grep]
+  	lineNumber = true
+	  extendRegexp = true
+[push]
+	  followTags = true
