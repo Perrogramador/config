@@ -83,6 +83,9 @@ noremap <Down>  <Nop>
 noremap <Left>  <Nop>
 noremap <Right> <Nop>
 
+au VimEnter * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
+au VimLeave * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Caps_Lock'
+
 " Tabs
 map <C-Tab> gt
 map <C-S-Tab> gT
