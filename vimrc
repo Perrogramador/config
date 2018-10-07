@@ -42,6 +42,7 @@ set shiftwidth=2
 set expandtab
 set cursorline
 set guicursor+=n-v-c-i:blinkwait100-blinkon50-blinkoff50
+set undofile
 
 au VimEnter * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
 au VimLeave * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Caps_Lock'
