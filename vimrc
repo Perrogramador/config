@@ -1,5 +1,6 @@
-filetype off                  " required
-set nocompatible              " be iMproved, required
+"<Vundle stuff>
+filetype off
+set nocompatible
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 "call vundle#begin('~/some/path/here')
@@ -24,13 +25,12 @@ Plugin 'tpope/vim-fugitive'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
-
+"</Vundle stuff>
 
 "Dark theme
 "let g:molokai_original = 1
 let g:rehash256 = 1
 colorscheme molokai
-
 
 let g:jedi#use_tabs_not_buffers = 1
 
@@ -43,10 +43,6 @@ set expandtab
 set cursorline
 set guicursor+=n-v-c-i:blinkwait100-blinkon50-blinkoff50
 set undofile
-
-au VimEnter * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
-au VimLeave * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Caps_Lock'
-
 
 " Tabs
 map <C-Tab> gt
@@ -70,5 +66,6 @@ map <C-Down> :m+1<CR>
 "Comment
 map <C-C> <leader>c<space>
 
+noremap W :w<CR>
 
 autocmd BufEnter * lcd %:p:h
