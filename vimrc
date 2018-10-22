@@ -35,13 +35,17 @@ colorscheme molokai
 let g:jedi#use_tabs_not_buffers = 1
 
 set nu
+set foldmethod=indent
 set autoindent
 set smartindent
 set tabstop=2
 set shiftwidth=2
 set expandtab
+
+set hlsearch
 set cursorline
 set guicursor+=n-v-c-i:blinkwait100-blinkon50-blinkoff50
+
 set undofile
 
 " Tabs
