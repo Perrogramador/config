@@ -45,3 +45,5 @@
 	  extendRegexp = true
 [push]
 	  followTags = true
+[mergetool]
+    keepBackup = false
