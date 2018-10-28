@@ -14,5 +14,10 @@ Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-fugitive'
 Plugin 'jason0x43/vim-js-indent'
 
+Plugin 'ctrlpvim/ctrlp.vim'
+let g:ctrlp_map = '<C-P>'
+let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_working_path_mode = 'ra'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
