@@ -1,5 +1,5 @@
-vnoremap <C-y> "+y
-inoremap <C-p> <C-r><C-p>+
+vnoremap <C-Y> "+y
+inoremap <C-P> <C-R><C-P>+
 map <C-Up> :m-2<CR>
 map <C-Down> :m+1<CR>
 "Comment
