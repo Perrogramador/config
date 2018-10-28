@@ -6,5 +6,5 @@ set undofile
 cabbrev help tab help
 noremap Q <Nop>
 
-set backupdir=~/.vim/backup//
+set undodir=~/.vim/undo//
 set directory=~/.vim/swp//
