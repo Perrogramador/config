@@ -1,23 +1,15 @@
-filetype off
-set nocompatible
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-"call vundle#begin('~/some/path/here')
+call plug#begin('~/.vim/bundle')
+Plug 'ervandew/supertab'
+Plug 'Valloric/YouCompleteMe'
+Plug 'scrooloose/nerdcommenter'
+Plug 'google/vim-searchindex'
+Plug 'vim-airline/vim-airline'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-fugitive'
+Plug 'jason0x43/vim-js-indent'
+Plug 'ctrlpvim/ctrlp.vim'
+call plug#end()
 
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'ervandew/supertab'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'scrooloose/nerdcommenter' 
-Plugin 'google/vim-searchindex'
-Plugin 'vim-airline/vim-airline'
-Plugin 'tpope/vim-surround'
-Plugin 'tpope/vim-fugitive'
-Plugin 'jason0x43/vim-js-indent'
-
-Plugin 'ctrlpvim/ctrlp.vim'
 let g:ctrlp_map = '<C-P>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_working_path_mode = 'ra'
-
-call vundle#end()            " required
-filetype plugin indent on    " required
