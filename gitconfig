@@ -1,3 +1,6 @@
+[user]
+    name = Perrogramador
+    mail = rocher.c.g@gmail.com
 [alias]
     a = add
     aa = add --all
@@ -7,10 +10,11 @@
     c = commit
     ca = commit --amend
     cam = commit --amend -m
-    cm = commit -m
     cl = clone
+    cm = commit -m
     co = checkout
     cob = checkout -b
+    cod = checkout develop
     com = checkout master
     cp = cherry-pick
     df = diff
@@ -19,22 +23,25 @@
     map = log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"
     mt = mergetool
     pl = pull
-    prq = pull-request
-    prqm = pull-request -m
+    ps = push
     rb = rebase
     rba = rebase --abort
     rbc = rebase --continue
     rbim = rebase -i master
     r = reset
-    rs = reset --soft
     rh = reset --hard
+    rs = reset --soft
+    rqp = request-pull
+    rqpm = request-pull -m
     sb = show-branch
     s = stash
-    sm = stash save
     sa = stash apply
     sl = stash list
+    spu = stash push -u
     st = status
     t = tag
+[core]
+    editor = vim
 [merge]
     tool = vim
 [diff]
