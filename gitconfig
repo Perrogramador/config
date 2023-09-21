@@ -39,6 +39,7 @@
     sa = stash apply
     sl = stash list
     spu = stash push -u
+    ssu = stash save -u
     st = status
     t = tag
 [core]
