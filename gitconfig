@@ -11,6 +11,7 @@
     ca = commit --amend
     cam = commit --amend -m
     can = commit --amend --no-edit
+    cf = clean -f
     cl = clone
     cm = commit -m
     co = checkout
