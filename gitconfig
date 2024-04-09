@@ -1,6 +1,6 @@
 [user]
     name = Perrogramador
-    mail = rocher.c.g@gmail.com
+    email = rocher.c.g@gmail.com
 [alias]
     a = add
     aa = add --all
