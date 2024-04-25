@@ -49,6 +49,7 @@
     tool = vim
 [diff]
     tool = vim
+    algorithm = patience
 [grep]
   	lineNumber = true
 	  extendRegexp = true
